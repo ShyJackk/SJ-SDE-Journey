@@ -1,2 +1,2 @@
-# SJ-SDE-Journey1
+# SJ-SDE-Journey
 C1 SDE Personal Website
