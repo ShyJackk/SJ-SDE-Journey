@@ -1,4 +1,4 @@
-// Code
+// Image Slider
 
 const images = document.querySelectorAll('#slider img');
 const previousImage = document.getElementById("prev");
@@ -44,4 +44,26 @@ previousImage.addEventListener('click', function() {
 nextImage.addEventListener('click', function() {
   slideRight();
 });
+
+// Fade And Slide In Effect
+
+const items = document.querySelectorAll('.item:not(:first-child)');
+
+const options = {
+  threshold: 0.5
+}
+
+function addSlideIn(entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('slide-in');
+    }
+  });
+}
+
+const observer = new IntersectionObserver(addSlideIn, options)
+
+items.forEach(item => {
+  observer.observe(item);
+})
 
