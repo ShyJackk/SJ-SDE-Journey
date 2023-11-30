@@ -118,10 +118,22 @@ p {
   background-color: rgb(52, 211, 211);
 }
 
+/* start of quote generator*/
+#quote-output {
+  font-size: 1.7rem;
+  font-style: italic;
+}
+
+#author-output {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* end of quote generator*/
+
 /*start of image slider styles-->*/
 #slider {
   position: relative;
-  width: 500px;
+  width: 450px;
   height: 400px;
 }
 
@@ -129,8 +141,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 448px;
+  height: 398px;
   opacity: 0;
   transition: all 1s ease-in-out;
 }
@@ -139,11 +151,11 @@ p {
   opacity: 1;
 }
 
-button#simple {
+/* simple buttpm*/
+.simple {
   background-color: rgb(52, 211, 211);
   padding: 10px;
   border-radius: 5px;
-  border-style: dotted;
 }
 
 button {
@@ -154,7 +166,7 @@ button {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  /*background-color: #717171;*/
+  background-color: rgb(52, 211, 211);
   color: #f1f1f1;
   font-size: 30px;
   font-stretch: condensed;
