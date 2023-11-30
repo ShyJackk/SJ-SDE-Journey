@@ -116,7 +116,6 @@ p {
   padding: 1rem;
   font-size: 2rem;
   background-color: rgb(52, 211, 211);
-  
 }
 
 /*start of image slider styles-->*/
@@ -140,24 +139,31 @@ p {
   opacity: 1;
 }
 
+button#simple {
+  background-color: rgb(52, 211, 211);
+  padding: 10px;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
 button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  border: 3px solid #fff;
+  border: 3px solid #000000;
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background-color: #717171;
+  /*background-color: #717171;*/
   color: #f1f1f1;
-  font-size: 32px;
+  font-size: 30px;
   font-stretch: condensed;
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
 
 button:hover {
-  background-color: steelblue;
+  background-color: rgb(52, 211, 211);
 }
 
 button#prev {
@@ -187,15 +193,6 @@ body {
   margin: 0 auto;
 }
 
-.heading {
-  font-size: 3rem;
-}
-
-.subheading {
-  font-size: 1.5rem;
-  color: #000;
-}
-
 .item {
   display: flex;
   flex-direction: column;
@@ -210,8 +207,8 @@ body {
 }
 
 .item__content {
-  background-color: steelblue;
-  color: #f3f3f3;
+  background-color: rgb(52, 211, 211);
+  color: #000000;
   text-align: center;
   padding: 7rem;
   border-radius: 7px;
@@ -236,13 +233,6 @@ body {
   transform: translateX(0);
 }
 /* end of fade and slide in effect*/
-
-button {
-  background-color: rgb(52, 211, 211);
-  padding: 10px;
-  border-radius: 5px;
-  border-style: dotted;
-}
 
 footer {
   background-color: rgb(52, 211, 211);
