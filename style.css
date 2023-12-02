@@ -114,27 +114,14 @@ p {
 
 .grid-item {
   padding: 1rem;
-  font-size: 2rem;
   background-color: rgb(52, 211, 211);
 }
-
-/* start of quote generator*/
-#quote-output {
-  font-size: 1.7rem;
-  font-style: italic;
-}
-
-#author-output {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-/* end of quote generator*/
 
 /*start of image slider styles-->*/
 #slider {
   position: relative;
   width: 450px;
-  height: 400px;
+  height: 440px;
 }
 
 #slider img {
@@ -142,7 +129,7 @@ p {
   top: 0;
   left: 0;
   width: 448px;
-  height: 398px;
+  height: 438px;
   opacity: 0;
   transition: all 1s ease-in-out;
 }
@@ -151,7 +138,7 @@ p {
   opacity: 1;
 }
 
-/* simple buttpm*/
+/* simple button*/
 .simple {
   background-color: rgb(52, 211, 211);
   padding: 10px;
