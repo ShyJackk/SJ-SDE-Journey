@@ -121,7 +121,7 @@ p {
 #slider {
   position: relative;
   width: 450px;
-  height: 440px;
+  height: 500px;
 }
 
 #slider img {
@@ -129,7 +129,7 @@ p {
   top: 0;
   left: 0;
   width: 448px;
-  height: 438px;
+  height: 498px;
   opacity: 0;
   transition: all 1s ease-in-out;
 }
